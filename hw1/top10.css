@@ -1,0 +1,79 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+
+#button{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.descrizione{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#searchbar{
+    
+    background-color: rgb(234, 234, 234);
+    border-radius: 2px;
+    border: black solid;
+    height: 25px;
+    
+}
+
+#grid{
+    display: flex;
+    flex-direction: column;
+    
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    width: 100%;
+}
+
+.locandina{
+    display: flex;
+    align-items: center;
+    
+    background-color:whitesmoke;
+    border: solid #dcdcdc 1px;
+
+}
+
+.locandina img{
+    width: 10%;
+    aspect-ratio: 67.5/100;/*Tipico rapporto dimensioni locandina*/
+    margin-right: 10px;
+}
+.name img{
+    display: block;
+    height: 140px;
+    margin-right: 20px;
+}
+.nav{
+    height: 140px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ricarica{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.title{
+    font-weight: bold;
+}

@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+button {
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #ffd000;
+    color: white;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 10px 10px;
+    transition: box-shadow 0.3s ease-in-out;
+    width: 100%;
+}
+
+button:hover {
+    box-shadow: none;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+
+.footer__column {
+    width: 33%;
+}
+
+.footer__column img {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+.footer__column__logo {
+    margin: 25px
+}
+
+form {
+    width: 50%;
+
+}
+
+#grid {
+    width: 70%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-image: url(./img/movieWallpaper.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.locandina {
+    width: 30%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    aspect-ratio: 67.5/100;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.locandina img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media(max-width:650px) {
+    nav {
+        flex-direction: column;
+    }
+}
+
+nav .links a {
+    text-decoration: none;
+    padding: 15px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+nav .links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+}
+
+.suggestion a {
+    text-decoration: underline;
+    color: white;
+}
+
+.suggestion {
+    font-size: 0.7em;
+}
+
+#searchbar {
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    font-size: 1em;
+    outline: none;
+}
